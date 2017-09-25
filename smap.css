@@ -10,7 +10,7 @@ margin: 0 2px;
 outline: none;
 cursor: pointer;
 text-decoration: none;
-font: 14px/100% "Bree Serif", serif, Arial, Helvetica, sans-serif;
+font: 14px/100% 'Bree Serif', serif, Arial, Helvetica, sans-serif;
 padding: .5em 2em .55em;
 text-shadow: 0 1px 1px rgba(0,0,0,.3);width:99%;
 margin:5px auto;
@@ -34,7 +34,7 @@ padding-left:15px;
 padding-right:5px;
 white-space:nowrap;
 text-align:left;
-font-family:"Bree Serif", serif;
+font-family:'Bree Serif', serif;
 font-size:12px;
 text-transform:Capitalize;
 }
