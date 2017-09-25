@@ -10,7 +10,7 @@ margin: 0 2px;
 outline: none;
 cursor: pointer;
 text-decoration: none;
-font: 14px/100% 'Bree Serif',serif,Arial, Helvetica, sans-serif;
+font: 14px/100% "Bree Serif", serif, Arial, Helvetica, sans-serif;
 padding: .5em 2em .55em;
 text-shadow: 0 1px 1px rgba(0,0,0,.3);width:99%;
 margin:5px auto;
@@ -34,19 +34,19 @@ padding-left:15px;
 padding-right:5px;
 white-space:nowrap;
 text-align:left;
-font-family:"Arial",sans-serif;
+font-family:"Bree Serif", serif;
 font-size:12px;
+text-transform:Capitalize;
 }
 
 .list-ganjil{
 background-color:#F6F6F6;
+text-transform:Capitalize;
 }
 
 .headactive{
  color: #fef4e9;
  border: 2px solid white !important;
  background: #f78d1d;
- background: -webkit-gradient(linear, left top, left bottom, from(#0040FF), to(#0040FF));
- background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
- filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+text-transform:Capitalize;
 }
