@@ -187,7 +187,7 @@ function displayToc2() {
          };
          if (showNew) {
             if (postBaru[_0xd19fx19] == true) {
-               document['write'](' - <strong>' + baru + '</strong>');
+               document['write'](' - <strong>' + NEW! + '</strong>');
             };
          };
          document['write']('</li>');
