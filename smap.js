@@ -3,7 +3,7 @@ var postTitle = new Array(),
    postMp3 = new Array(),
    postDate = new Array(),
    postLabels = new Array(),
-   postBaru = new Array(),
+   postNew = new Array(),
    sortBy = 'titleasc',
    tocLoaded = false,
    postFilter = '',
@@ -47,9 +47,9 @@ function loadtoc(_0xd19fxc) {
                   postUrl[ii] = _0xd19fx13;
                   postMp3[ii] = _0xd19fx15;
                   if (_0xd19fxf < maxNew) {
-                     postBaru[ii] = true;
+                     postNew[ii] = true;
                   } else {
-                     postBaru[ii] = false;
+                     postNew[ii] = false;
                   };
                   ii = ii + 1;
                };
@@ -99,9 +99,9 @@ function sortPosts(sortBy) {
       var _0xd19fx1e = postLabels[_0xd19fx1c];
       postLabels[_0xd19fx1c] = postLabels[_0xd19fx1d];
       postLabels[_0xd19fx1d] = _0xd19fx1e;
-      var _0xd19fx1e = postBaru[_0xd19fx1c];
-      postBaru[_0xd19fx1c] = postBaru[_0xd19fx1d];
-      postBaru[_0xd19fx1d] = _0xd19fx1e;
+      var _0xd19fx1e = postNew[_0xd19fx1c];
+      postNew[_0xd19fx1c] = postNew[_0xd19fx1d];
+      postNew[_0xd19fx1d] = _0xd19fx1e;
    };
    for (var _0xd19fxf = 0; _0xd19fxf < postTitle['length'] - 1; _0xd19fxf++) {
       for (var _0xd19fx19 = _0xd19fxf + 1; _0xd19fx19 < postTitle['length']; _0xd19fx19++) {
@@ -148,9 +148,9 @@ function sortPosts2(_0xd19fx20, _0xd19fx21) {
       var _0xd19fx1e = postLabels[_0xd19fx1c];
       postLabels[_0xd19fx1c] = postLabels[_0xd19fx1d];
       postLabels[_0xd19fx1d] = _0xd19fx1e;
-      var _0xd19fx1e = postBaru[_0xd19fx1c];
-      postBaru[_0xd19fx1c] = postBaru[_0xd19fx1d];
-      postBaru[_0xd19fx1d] = _0xd19fx1e;
+      var _0xd19fx1e = postNew[_0xd19fx1c];
+      postNew[_0xd19fx1c] = postNew[_0xd19fx1d];
+      postNew[_0xd19fx1d] = _0xd19fx1e;
    };
    for (var _0xd19fxf = _0xd19fx20; _0xd19fxf < _0xd19fx21 - 1; _0xd19fxf++) {
       for (var _0xd19fx19 = _0xd19fxf + 1; _0xd19fx19 < _0xd19fx21; _0xd19fx19++) {
@@ -186,8 +186,8 @@ function displayToc2() {
             document['write']('<a href="' + postUrl[_0xd19fx19] + '">' + postTitle[_0xd19fx19] + '</a>');
          };
          if (showNew) {
-            if (postBaru[_0xd19fx19] == true) {
-               document['write'](' - <strong>' + NEW! + '</strong>');
+            if (postNew[_0xd19fx19] == true) {
+               document['write'](' - <strong>' + New + '</strong>');
             };
          };
          document['write']('</li>');
